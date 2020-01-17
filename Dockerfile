@@ -54,7 +54,8 @@ RUN apk add --no-cache --update \
     php7-xmlwriter \
     php7-zip \
     php7-zlib \
-    php7-zmq
+    php7-zmq \
+    php7-mysqli
 
 # Runtime env vars are envstub'd into config during entrypoint
 ENV SERVER_NAME="localhost"
